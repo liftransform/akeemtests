@@ -8,7 +8,7 @@ import plotly.graph_objs as go
 
 # Create a Dash app
 app = dash.Dash(__name__)
-
+server = app.server
 
 df = pd.DataFrame()
 df['ds'] = pd.date_range(start='2023-01-01', end='2023-12-31')
