@@ -4,12 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-dash = "*"
-plotly = "*"
-plotly-express = "*"
-pandas = "*"
-openpyxl = "*"
 gunicorn = "*"
+dash = "*"
 prophet = "*"
 
 [dev-packages]
